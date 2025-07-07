@@ -63,11 +63,9 @@ Reflect on the research process, outcomes, and community impact.
 
 Document lessons learned, ethical considerations, and next steps.
 
-🧠 Core Technical Areas to Learn
-Sound Processing: Python (librosa), Max/MSP, or TouchDesigner.
+Core Technical Areas to Learn
+Sound Processing: Max/MSP
 
-Real-time Visualization: Processing, TouchDesigner, p5.js, OpenFrameworks.
-
-Hardware (if tactile): Arduino, Raspberry Pi, microphones, vibration plates.
+Real-time Visualization: Processing, Python
 
 Mapping (if spatial): OpenCV for image recognition, Unity or QGIS for mapping.
