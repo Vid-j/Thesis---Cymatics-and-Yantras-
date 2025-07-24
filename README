@@ -20,6 +20,13 @@ cs3380/
 
 ## Requirements
 
+PRE-REQUIREMENTS:
+
+Python 
+Python pip
+
+SPECIFIC LIBRARIES:
+
 moderngl
 glfw
 numpy
@@ -37,6 +44,9 @@ pip install -r requirements.txt
 ```
 
 # downloaded 
+
+pip install osc
+
 pip install moderngl glfw numpy librosa matplotlib python-osc soundfile scipy pillow
 
 
