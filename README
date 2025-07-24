@@ -4,9 +4,7 @@ This repository contains code and resources for the CS3380 research project at W
 
 ## Project Overview
 
-This project explores the intersection of sound, vibration, and visual form through the lens of cymatics. It includes tools to extract sound features such as fundamental 
-frequency and amplitude from audio files, and a real-time simulation that visualizes these properties using shaders. The system integrates Max/MSP, Python, and OpenGL to 
-create dynamic, sound-reactive visual patterns inspired by traditional yantras and the science of cymatics.
+This project explores the intersection of sound, vibration, and visual form through the lens of cymatics. It includes tools to extract sound features such as fundamental frequency and amplitude from audio files, and a real-time simulation that visualizes these properties using shaders. The system integrates Max/MSP, Python, and OpenGL to create dynamic, sound-reactive visual patterns inspired by traditional yantras and the science of cymatics.
 
 ## Folder Structure
 
