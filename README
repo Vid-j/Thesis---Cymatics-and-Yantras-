@@ -1,11 +1,55 @@
-Topic: Cymatic Mapping of Mantras
+# cs3380
 
-This is a course project (specifically for a thesis course cs 3380 at UWO)
+This repository contains code and resources for the CS3380 research project at Western University, conducted under the guidance of Dr. Jackson 2bears (Jackson Leween).
 
-When I started this research project, I wanted to combine my passions -- science and yoga -- with this in mind as well as my recent interest in Nada yoga (sound). I dececide to dive into this 
-ongoing research of "Is Cymatics just the new version of Yantras and Mantras, or is it different?"
+## Project Overview
 
-The research paper will also be attached, which provides an in-depth explanation of the topic and the simulation software developed.
+This project explores the intersection of sound, vibration, and visual form through the lens of cymatics. It includes tools to extract sound features such as fundamental 
+frequency and amplitude from audio files, and a real-time simulation that visualizes these properties using shaders. The system integrates Max/MSP, Python, and OpenGL to 
+create dynamic, sound-reactive visual patterns inspired by traditional yantras and the science of cymatics.
+
+## Folder Structure
+
+```
+cs3380/
+├── data/                   # Audio and data files
+├── src/                    # Source code
+│   ├── shader/             # Shaders: fragment_shader.glsl and vertex_shader.vs
+│   └── live_chladni_gl.py  # Real-time 
+├── chladniPatch.maxpat     # Max/MSP patch for 
+├── README.md               # Project documentation
+```
+
+## Requirements
+
+moderngl
+glfw
+numpy
+librosa
+matplotlib
+python-osc
+soundfile
+scipy
+pillow
 
 
-(The information is yet to be updated) - july 19
+Install dependencies with:
+```sh
+pip install -r requirements.txt
+```
+
+# downloaded 
+pip install moderngl glfw numpy librosa matplotlib python-osc soundfile scipy pillow
+
+
+## Usage
+
+Example to run the audio analysis script:
+```sh
+python src/sound_extract.py
+```
+
+## Contributors
+
+Vidhi Joshi 
+Dr. Jackson leween 2bears
