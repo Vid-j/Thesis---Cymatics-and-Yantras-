@@ -1,73 +1,53 @@
-Project Flow Overview
-1. Conceptual Foundation
-Define core themes: sound as cultural memory, cymatics, and the visual-sonic mapping of sacred sounds.
+# cs3380
 
-Research traditional Hindu and Indigenous sound practices (e.g., Sanskrit chants, drumming, healing frequencies).
+This repository contains code and resources for the CS3380 research project at Western University, conducted under the guidance of Dr. Jackson 2bears (Jackson Leween).
 
-Consult with cultural advisors, elders, or texts to ethically and respectfully source sounds.
+## Project Overview
 
-2. System Design Research
-Research cymatics and digital sound visualization (e.g., Chladni plates, ferrofluid, water ripple tanks).
+This project explores the intersection of sound, vibration, and visual form through the lens of cymatics. It includes tools to extract sound features such as fundamental frequency and amplitude from audio files, and a real-time simulation that visualizes these properties using shaders. The system integrates Max/MSP, Python, and OpenGL to create dynamic, sound-reactive visual patterns inspired by traditional yantras and the science of cymatics.
 
-Choose how to capture and visualize the sound (live or pre-recorded).
+## Folder Structure
 
-Explore digital tools: Max/MSP, TouchDesigner, Python, OpenCV, Processing, Arduino, Raspberry Pi.
+```
+cs3380/
+├── data/                   # Audio and data files
+├── src/                    # Source code
+│   ├── shader/             # Shaders: fragment_shader.glsl and vertex_shader.vs
+│   └── live_chladni_gl.py  # Real-time 
+├── chladniPatch.maxpat     # Max/MSP patch for 
+├── README.md               # Project documentation
+```
 
-3. Software + Hardware Development
-Input: Capture sound (microphones or audio files).
+## Requirements
 
-Processing:
+moderngl
+glfw
+numpy
+librosa
+matplotlib
+python-osc
+soundfile
+scipy
+pillow
 
-Analyze sound frequencies.
 
-Use Fast Fourier Transform (FFT) or similar algorithms.
+Install dependencies with:
+```sh
+pip install -r requirements.txt
+```
 
-Translate frequency data into image patterns or simulations.
+# downloaded 
+pip install moderngl glfw numpy librosa matplotlib python-osc soundfile scipy pillow
 
-Output: Visual renderings (live visuals, cymatic patterns in water, animations).
 
-Integrate sensors or projection for interactivity (optional).
+## Usage
 
-4. Data Mapping & Visualization (Optional)
-Use mapping software (e.g., QGIS or Unity/TouchDesigner for spatial-visual mapping).
+Example to run the audio analysis script:
+```sh
+python src/sound_extract.py
+```
 
-Consider linking sound patterns to geographic or cultural maps (e.g., India or Turtle Island).
+## Contributors
 
-If mapping pottery (like in your pit-to-map system): image recognition, object detection, spatial plotting.
-
-5. Installation Design
-Decide on format: single-screen projection, immersive space, interactive installation, gallery wall.
-
-Define layout: speakers, visuals, possibly tactile elements (vibration, 3D prints).
-
-Design for accessibility and cultural sensitivity.
-
-Propose a meditative or ceremonial feel—e.g., low light, soft textures, floor seating.
-
-6. Testing and Iteration
-Test your system using recorded or live sounds.
-
-Refine visuals, timing, interactivity.
-
-Seek feedback from peers, supervisors, and cultural mentors.
-
-7. Final Presentation
-Prepare the installation or final deliverable (could be a video, website, interactive space).
-
-Include documentation: development process, cultural context, user interaction notes.
-
-Optional: exhibit in a gallery or community space.
-
-8. Reflection + Evaluation
-Reflect on the research process, outcomes, and community impact.
-
-Document lessons learned, ethical considerations, and next steps.
-
-🧠 Core Technical Areas to Learn
-Sound Processing: Python (librosa), Max/MSP, or TouchDesigner.
-
-Real-time Visualization: Processing, TouchDesigner, p5.js, OpenFrameworks.
-
-Hardware (if tactile): Arduino, Raspberry Pi, microphones, vibration plates.
-
-Mapping (if spatial): OpenCV for image recognition, Unity or QGIS for mapping.
+Vidhi Joshi 
+Dr. Jackson leween 2bears
